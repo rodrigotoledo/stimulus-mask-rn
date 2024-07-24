@@ -1,0 +1,42 @@
+{
+  "name": "stimulus-mask-rn",
+  "version": "1.0.1",
+  "description": "Stimulus controller for dynamic input masking with digit and character recognition",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "babel src --out-dir dist",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodrigotoledo/stimulus-mask-rn.git"
+  },
+  "keywords": [
+    "stimulus",
+    "mask",
+    "input",
+    "dynamic",
+    "react",
+    "react-native",
+    "format",
+    "textinput"
+  ],
+  "author": "Rodrigo Toledo",
+  "license": "MIT",
+  "dependencies": {
+    "@hotwired/stimulus": "^3.2.2",
+    "react": "18.2.0",
+    "react-native": "0.74.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.24.8",
+    "@babel/preset-env": "^7.24.8",
+    "@babel/preset-react": "^7.24.7",
+    "@testing-library/dom": "^8.5.0",
+    "@testing-library/jest-dom": "^5.11.10",
+    "@testing-library/user-event": "^12.1.10",
+    "babel-jest": "^26.6.3",
+    "jest": "^26.6.3"
+  }
+}
